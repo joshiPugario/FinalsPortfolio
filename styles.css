@@ -451,6 +451,12 @@ a:hover h1 {
     font-size: 2rem;
     text-decoration: none;
     link-style-type: none;
+} 
+.icons a {
+    transition: color 0.5s;
+}
+.icons:hover a {
+    color: #4267B2;
 }
 .ending {
     font-size: 1.5rem;
