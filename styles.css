@@ -74,9 +74,6 @@ ul li {
     width: 100%;
     transition: width 0.3s linear;
 }
-.logo {
-    color: white;
-}
 .greeting {
     min-height: 85vh;
     display: flex;
@@ -409,7 +406,7 @@ a:hover h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 2.2rem;
+    font-size: 2rem;
     z-index: 2;
     font-style: italic;
     margin-top: 0;
