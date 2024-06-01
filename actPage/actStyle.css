@@ -1,4 +1,16 @@
+/* * {
+    background-color: black;
+} */
 body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navspace {
+    width: 100vw;
+    height: 15vh;
     background-color: black;
 }
 .navcontainer {
@@ -8,7 +20,9 @@ body {
     min-height: 15vh;
     height: 15vh;
     margin: 0 10vw 0;
-    
+    position: absolute;
+    top: 0;
+    width: 80%;;
 }
 .logo {
     font-size: 2.5rem;
@@ -18,7 +32,7 @@ body {
     color: #4267B2;
 }
 ul {
-    display: flex;
+    display: flex;  
     align-items: center;
     justify-content: space-between;
 }
@@ -53,20 +67,33 @@ ul li {
     align-items: center;
     flex-direction: column;
 }
+.carousel {
+    width: 60vw;
+    box-shadow: 0 0 1rem gray;
+    border-radius: 50px;
+    overflow: hidden;
+}
+#carouselExample {
+    border-radius: 20%;
+}
 .titleTerm {
     color: #4267B2;
     font-size:3rem;
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-style: normal;
-}
-
-.terms {
-
-}
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+} 
 .Acts {
     width: 45vw;
     border-radius: 10%;
     margin-bottom: 2rem;
     box-shadow: 0 0 1rem gray;
 }
+.prelimcarousel {
+    height: 50vh;
+    width: 60vh;
+}
+
+
