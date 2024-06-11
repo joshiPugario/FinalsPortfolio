@@ -169,9 +169,6 @@ ul li {
     align-items: center;
     flex-direction: column;
 }
-.about_description {
-   
-}
 .about_description p {
     color: white;
     font-size: 1.5rem;
@@ -447,7 +444,7 @@ a:hover h1 {
     color: gray;
     font-size: 2rem;
     text-decoration: none;
-    link-style-type: none;
+    list-style-type: none;
 } 
 .icons a {
     transition: color 0.5s;
